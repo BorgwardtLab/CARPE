@@ -7,7 +7,7 @@
 </p>
 
 ## Prerequisites
-Before checking out the repository, make sure you have [git lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) installed. This is necessary to be able to check out the model checkpoints exceeding 100MB due to github's file size limit.
+Before cloning the repository, make sure you have [git lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) installed. This is necessary to be able to check out the model checkpoints exceeding 100MB due to github's file size limit.
 
 Once `git lfs` is installed, check out the repository and install all dependencies with `pip install -r requirements.txt`. The code is tested with `Python 3.8`.
 
