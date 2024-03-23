@@ -32,3 +32,7 @@ downsampled = signal.decimate(parser.data, 2, axis=0)
 
 np.savez(OUTPUT_PATH, data=downsampled.T)
 ```
+
+### 2-6-2 Sequence Extraction
+You will likely not have access to the exact times when the stress phase started/ended. Instead, you can use the the time point of the maximum heart rate as the last point from which stress windows are extracted. To extract the first 2-6-2 sequence, take the first 2 seconds of the ECG signal, the last 6 seconds that preceed the time point with maximal HR, and the last 2 seconds of the ECG signal. For the second 2-6-2 sequence, stride the first window forward by 2 seconds, the second window back by 6 seconds, and the third window back by 2 seconds. Continue until you extracted all 2-6-2 sequences. 
+Take a look at [this function](https://github.com/BorgwardtLab/CARPE/blob/main/CARPE/src/THEW_helper.py#L220) for an implementation. 
