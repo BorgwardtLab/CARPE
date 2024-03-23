@@ -9,7 +9,7 @@
 ## Prerequisites
 Before cloning the repository, make sure you have [git lfs](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage) installed. This is necessary to be able to check out the model checkpoints exceeding 100MB due to github's file size limit.
 
-Once `git lfs` is installed, check out the repository and install all dependencies with `pip install -r requirements.txt`. The code is tested with `Python 3.8`.
+Once `git lfs` is installed, clone the repository and install all dependencies with `pip install -r requirements.txt`. The code is tested with `Python 3.8`.
 
 ## Generating Predictions
 Take a look at our [sample notebook](https://github.com/BorgwardtLab/CARPE/blob/main/CARPE/src/sample_prediction_generation.ipynb) to learn how to use $CARPE_{\text{Clin.}}$, our random forest trained on a small set of static clinical data, and our neural network approach $CARPE_{\text{ECG}}$ which takes both ECG signals and static date as inputs.
