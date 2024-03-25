@@ -3,6 +3,7 @@
   <img src="https://github.com/BorgwardtLab/CARPE/blob/main/logo.png?raw=true" width="200" title="CARPE Logo"><br/>
   This is the official repository for the paper <br/> <a href="https://link">Enhancing the diagnosis of functionally relevant coronary artery disease with machine learning</a>. <br/>
   <img src="https://img.shields.io/badge/python-3.8-green.svg">
+  <img src="https://zenodo.org/badge/704392440.svg">
 </span>
 </p>
 
